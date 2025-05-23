@@ -20,7 +20,7 @@
 #include <TinyGPS++.h>
 #include <math.h>
 
-// Default fallback coordinates
+// Default fallback coordinates (Bacolod City Hall)
 // 10°39'25.7"N 122°56'52.9"E = 10.657139, 122.948028
 const double DEFAULT_LAT = 10.657139;
 const double DEFAULT_LON = 122.948028;
@@ -52,7 +52,7 @@ void getRandomDefaultLocation(double &lat, double &lon) {
 #define ULTRASONIC_ECHO     18
 
 #define GPS_RX_PIN          33
-#define GPS_TX_PIN          23
+#define GPS_TX_PIN          22
 #define GPS_BAUDRATE        9600
 
 // --- Global Variables ---
