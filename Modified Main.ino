@@ -52,7 +52,7 @@ void getRandomDefaultLocation(double &lat, double &lon) {
 #define ULTRASONIC_ECHO     18
 
 #define GPS_RX_PIN          33
-#define GPS_TX_PIN          22
+#define GPS_TX_PIN          23
 #define GPS_BAUDRATE        9600
 
 // --- Global Variables ---
